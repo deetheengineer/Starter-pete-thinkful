@@ -1,0 +1,140 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header { 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px;
+}  
+
+.about { 
+  display: flex;
+  text-align: center;
+}  
+
+.about-content { 
+  display: flex; 
+  align-items: left;
+  justify-content: left;
+  margin: 3px 3px 3px 3px; 
+  padding: 3px 3px 3px 3px;
+} 
+.portfolio { 
+  display:flex; 
+  font-size: 14px;
+  margin: auto; 
+  text-align: center;
+  
+}
+ 
+
+.background { 
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-text { 
+  text-align: left; 
+
+} 
+
+header h1 { 
+  margin: 0;
+}
+
+header nav ul { 
+  list-style: none; 
+  display: flex; 
+  margin: 10px 10px 10px 10px; 
+  padding: 10;
+} 
+
+header nav ul li { 
+  margin-left: 20px;
+} 
+
+header nav ul li a { 
+  text-decoration: none; 
+  color: black;
+}
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px; 
+} 
+.container { 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+
+article {
+  padding: 50px 0;
+  height: 100px:
+}
+
+article div {
+  text-align: center;
+  width: 50%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+} 
+
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%; 
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
